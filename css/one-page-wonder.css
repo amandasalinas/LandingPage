@@ -1,0 +1,247 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.8 (https://startbootstrap.com/theme/one-page-wonder)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+ html{scroll-behavior: smooth;}
+
+ body {
+  font-family: 'Open Sans';
+  font-size: 1.2rem !important;
+  line-height: 1.7 !important;
+  color: #444 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans';
+  font-weight: 800 !important;
+}
+
+strong{ color: #c25493; }
+
+.text-white{ 
+  color: #fff !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.bg-black {
+  background-color: #29081c !important;
+  padding: 18px 0;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
+  box-shadow: 0 0 15px #bbb;
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{ color: rgb(106, 106, 106) !important; }
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(15rem + 72px) !important;
+  padding-bottom: 7rem;
+  background: url('../img/bg-lotus.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(15rem + 55px) !important;
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 2.5rem;
+    font-weight: normal !important;
+  }
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #dc5ca6;
+  border-color: #dc5ca6;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #c25493 !important;
+  border-color: #c25493 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.bloco-pd {
+  padding: 80px 0;
+}
+
+.display-4{ font-size: 2.5rem !important; }
+
+.banner-promo{
+  position: relative;
+  overflow: hidden;
+  padding: 100px;
+  background: url('../img/banner-produto-lotus.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.bg-sobre{ 
+  background: url('../img/bg-sobre-lotus.jpg'); 
+  background-repeat: no-repeat !important;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  padding: 80px 0 0 0 !important;
+}
+
+.banner-promo h2{ 
+  font-weight: normal !important; 
+  margin-top: 20px;
+}
+
+.navbar-nav li  ul{
+  position:absolute;
+  top: 70px;
+  background-color: #fff;
+  display:none;
+  width: 300px;
+  padding: 20px;
+}
+
+.navbar-nav li:hover ul, .navbar-nav li.over ul{display:block;}
+
+.navbar-nav li ul li{
+  display:block;
+  width:100%;
+  padding: 2px 0;
+}
+
+.navbar-nav li ul li a{
+  color: rgb(106, 106, 106) !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.navbar-nav li ul li a:hover{
+  color: #dc5ca6 !important;
+  text-decoration: none !important;
+}
+
+#contato li {
+  list-style: none;
+  display: inline-block;
+  padding-top: 7px;
+  font-size: 24px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  border-radius: 50px;
+  background: #ffeaf5;
+}
+
+#contato a, footer a{ color: #c25493 !important; }
+
+.btn-whats {
+  right: 20px;
+  bottom: 105px;
+  position: fixed;
+}
+
+/* ======== MOBILE ========= */
+.navbar-dark .navbar-toggler {
+  color: rgb(194, 84, 147);
+  border-color: transparent;
+  font-size: 28px !important;
+}
+
+@media (max-width: 440px){
+  header.masthead{
+    padding-top: calc(9rem + 72px) !important;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 3rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 1.8rem;
+    margin-top: 25px;
+  }
+  .display-4{ margin-top: 10px }
+  .banner-promo{ padding: 23px; }
+  .banner-promo h2{ font-size: 21px; }
+  .banner-promo h1{ font-size: 43px; }
+  #contato h4 {  margin-top: 40px; }
+}
